@@ -1,0 +1,11 @@
+[package]
+name = "realtime"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "realtime"
+path = "realtime.rs"
+
+[dependencies]
+howlong = "0.1.7"
